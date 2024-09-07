@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+    <style>
+      p {
+        color: white;
+        background-color: green;
+      }
+    </style>
   </head>
   <body>
+    <!-- First one is a heading and needs to in a red background but white text, times new roman. -->
     <div>Style me via the external method!</div>
+    <!-- This one needs to be regular text in white but green background -->
     <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <!-- THis one needs to be orange with black text -->
+    <button style="background-color: orange; border: 2px transparent grey;">Inline Method</button>
   </body>
 </html>
